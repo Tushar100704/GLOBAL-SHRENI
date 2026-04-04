@@ -1,4 +1,4 @@
-]# 👋 Hello, I'm Tushar Ingle
+👋 Hello, I'm Tushar Ingle
 
 🚀 Founder @ Global Shreni | 🤖 AI System Builder | 🎓 ENTC Engineer  
 📍 Pune, India  
