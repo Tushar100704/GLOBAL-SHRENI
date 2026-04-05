@@ -1,0 +1,1580 @@
+{
+  "suggestedPrompts": [
+    "Find vet near me",
+    "Book electrician",
+    "Home cleaning tomorrow",
+    "Emergency plumber",
+    "AC repair service",
+    "Carpenter for furniture"
+  ],
+  "servicePartners": [
+    {
+      "id": "1",
+      "name": "Dr. Sarah Veterinary Clinic",
+      "category": "Veterinary",
+      "rating": 4.8,
+      "reviewCount": 234,
+      "distance": 1.2,
+      "eta": 15,
+      "priceRange": "INR 500-2000",
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      "expertise": [
+        "Pet Care",
+        "Emergency Care",
+        "Vaccination",
+        "Surgery"
+      ],
+      "description": "Expert veterinary care for pets with 15+ years of experience.",
+      "verified": true,
+      "services": [
+        {
+          "id": "s1",
+          "name": "General Checkup",
+          "price": 500,
+          "duration": 30,
+          "description": "Complete health examination"
+        },
+        {
+          "id": "s2",
+          "name": "Vaccination",
+          "price": 800,
+          "duration": 20,
+          "description": "Annual vaccination shots"
+        },
+        {
+          "id": "s3",
+          "name": "Emergency Care",
+          "price": 2000,
+          "duration": 60,
+          "description": "Urgent emergency service"
+        }
+      ],
+      "availability": [
+        {
+          "date": "2026-04-04",
+          "slots": [
+            "09:00",
+            "10:00",
+            "11:00",
+            "14:00",
+            "15:00",
+            "16:00"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "slots": [
+            "09:00",
+            "10:00",
+            "11:00",
+            "14:00",
+            "15:00"
+          ]
+        },
+        {
+          "date": "2026-04-06",
+          "slots": [
+            "09:00",
+            "11:00",
+            "14:00",
+            "16:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "PowerFix Electricians",
+      "category": "Electrician",
+      "rating": 4.6,
+      "reviewCount": 189,
+      "distance": 0.8,
+      "eta": 10,
+      "priceRange": "INR 300-1500",
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop",
+      "expertise": [
+        "Wiring",
+        "Repairs",
+        "Installation",
+        "Emergency"
+      ],
+      "description": "Licensed electricians for home and office electrical needs.",
+      "verified": true,
+      "services": [
+        {
+          "id": "s4",
+          "name": "Fan Installation",
+          "price": 300,
+          "duration": 45,
+          "description": "Install ceiling fan"
+        },
+        {
+          "id": "s5",
+          "name": "Wiring Repair",
+          "price": 800,
+          "duration": 90,
+          "description": "Fix wiring issues"
+        },
+        {
+          "id": "s6",
+          "name": "Switch Replacement",
+          "price": 200,
+          "duration": 30,
+          "description": "Replace faulty switches"
+        }
+      ],
+      "availability": [
+        {
+          "date": "2026-04-04",
+          "slots": [
+            "08:00",
+            "09:00",
+            "10:00",
+            "14:00",
+            "15:00",
+            "17:00"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "slots": [
+            "08:00",
+            "09:00",
+            "11:00",
+            "15:00",
+            "17:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "QuickFix Plumbing",
+      "category": "Plumber",
+      "rating": 4.7,
+      "reviewCount": 312,
+      "distance": 2,
+      "eta": 20,
+      "priceRange": "INR 400-2000",
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=400&fit=crop",
+      "expertise": [
+        "Pipe Repair",
+        "Leak Fix",
+        "Bathroom",
+        "Kitchen"
+      ],
+      "description": "Trusted plumbing experts available for emergency support.",
+      "verified": true,
+      "services": [
+        {
+          "id": "s7",
+          "name": "Leak Repair",
+          "price": 500,
+          "duration": 60,
+          "description": "Fix pipe or tap leaks"
+        },
+        {
+          "id": "s8",
+          "name": "Drain Cleaning",
+          "price": 700,
+          "duration": 45,
+          "description": "Unblock drainage lines"
+        },
+        {
+          "id": "s9",
+          "name": "Tap Installation",
+          "price": 400,
+          "duration": 30,
+          "description": "Install or replace taps"
+        }
+      ],
+      "availability": [
+        {
+          "date": "2026-04-04",
+          "slots": [
+            "09:00",
+            "10:00",
+            "14:00",
+            "16:00"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "slots": [
+            "08:00",
+            "10:00",
+            "11:00",
+            "15:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sparkle Home Cleaning",
+      "category": "Home Cleaning",
+      "rating": 4.9,
+      "reviewCount": 456,
+      "distance": 1.5,
+      "eta": 18,
+      "priceRange": "INR 800-3000",
+      "available": false,
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=400&fit=crop",
+      "expertise": [
+        "Deep Cleaning",
+        "Regular Cleaning",
+        "Kitchen",
+        "Bathroom"
+      ],
+      "description": "Professional home cleaning with eco-friendly products.",
+      "verified": true,
+      "services": [
+        {
+          "id": "s10",
+          "name": "Regular Cleaning",
+          "price": 800,
+          "duration": 120,
+          "description": "Complete home cleaning"
+        },
+        {
+          "id": "s11",
+          "name": "Deep Cleaning",
+          "price": 2500,
+          "duration": 240,
+          "description": "Intensive deep cleaning"
+        },
+        {
+          "id": "s12",
+          "name": "Kitchen Cleaning",
+          "price": 1200,
+          "duration": 90,
+          "description": "Detailed kitchen cleaning"
+        }
+      ],
+      "availability": [
+        {
+          "date": "2026-04-05",
+          "slots": [
+            "09:00",
+            "14:00"
+          ]
+        },
+        {
+          "date": "2026-04-06",
+          "slots": [
+            "09:00",
+            "10:00",
+            "14:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "AC Care Experts",
+      "category": "AC Repair",
+      "rating": 4.5,
+      "reviewCount": 178,
+      "distance": 3.2,
+      "eta": 30,
+      "priceRange": "INR 500-2500",
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1631545806609-6b3c0f4e8ec6?w=400&h=400&fit=crop",
+      "expertise": [
+        "AC Service",
+        "Repair",
+        "Installation",
+        "Gas Refill"
+      ],
+      "description": "Certified AC technicians for all major brands.",
+      "verified": true,
+      "services": [
+        {
+          "id": "s13",
+          "name": "AC Service",
+          "price": 500,
+          "duration": 60,
+          "description": "Regular AC maintenance"
+        },
+        {
+          "id": "s14",
+          "name": "Gas Refill",
+          "price": 1800,
+          "duration": 45,
+          "description": "AC gas refill"
+        },
+        {
+          "id": "s15",
+          "name": "AC Repair",
+          "price": 1200,
+          "duration": 90,
+          "description": "Repair and diagnostics"
+        }
+      ],
+      "availability": [
+        {
+          "date": "2026-04-04",
+          "slots": [
+            "10:00",
+            "14:00",
+            "16:00"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "slots": [
+            "09:00",
+            "11:00",
+            "15:00"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "partnerId": "1",
+      "userId": "u-customer-1",
+      "userName": "Rahul Sharma",
+      "userImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "rating": 5,
+      "comment": "Excellent service, very professional and punctual.",
+      "tags": [
+        "Professional",
+        "On Time",
+        "Friendly"
+      ],
+      "date": "2026-03-28",
+      "photos": [
+        "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=300&h=300&fit=crop"
+      ]
+    },
+    {
+      "id": "r2",
+      "partnerId": "2",
+      "userId": "u-customer-2",
+      "userName": "Priya Patel",
+      "userImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "rating": 5,
+      "comment": "Fixed the wiring issue quickly and efficiently.",
+      "tags": [
+        "Quick Service",
+        "Expert",
+        "Value for Money"
+      ],
+      "date": "2026-03-25"
+    },
+    {
+      "id": "r3",
+      "partnerId": "1",
+      "userId": "u-customer-3",
+      "userName": "Amit Kumar",
+      "userImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+      "rating": 4,
+      "comment": "Good service overall and polite communication.",
+      "tags": [
+        "Good Quality",
+        "Polite"
+      ],
+      "date": "2026-03-20"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "customerId": "u-customer-1",
+      "partnerId": "1",
+      "partnerName": "Dr. Sarah Veterinary Clinic",
+      "partnerImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      "serviceId": "s1",
+      "service": "General Checkup",
+      "date": "2026-04-04",
+      "time": "10:00",
+      "status": "assigned",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "price": 550,
+      "address": "123 MG Road, Bangalore",
+      "notes": "",
+      "category": "Veterinary",
+      "jobId": "j1"
+    },
+    {
+      "id": "b2",
+      "customerId": "u-customer-1",
+      "partnerId": "2",
+      "partnerName": "PowerFix Electricians",
+      "partnerImage": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop",
+      "serviceId": "s4",
+      "service": "Fan Installation",
+      "date": "2026-04-05",
+      "time": "14:00",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "paymentMethod": "",
+      "price": 350,
+      "address": "123 MG Road, Bangalore",
+      "notes": "",
+      "category": "Electrician",
+      "jobId": ""
+    },
+    {
+      "id": "b3",
+      "customerId": "u-customer-1",
+      "partnerId": "4",
+      "partnerName": "Sparkle Home Cleaning",
+      "partnerImage": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=400&fit=crop",
+      "serviceId": "s11",
+      "service": "Deep Cleaning",
+      "date": "2026-03-30",
+      "time": "09:00",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "card",
+      "price": 2550,
+      "address": "123 MG Road, Bangalore",
+      "notes": "",
+      "category": "Home Cleaning",
+      "jobId": "j3"
+    },
+    {
+      "id": "b-1775317088499-zs4ber",
+      "customerId": "u-customer-1",
+      "partnerId": "2",
+      "partnerName": "PowerFix Electricians",
+      "partnerImage": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=400&fit=crop",
+      "serviceId": "s4",
+      "service": "Fan Installation",
+      "date": "2026-04-07",
+      "time": "11:00",
+      "status": "assigned",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "price": 350,
+      "address": "Test Address",
+      "notes": "",
+      "category": "Electrician",
+      "jobId": "j-1775317088512-scvhhl"
+    },
+    {
+      "id": "b-1775333848501-56r3tr",
+      "customerId": "u-customer-1",
+      "partnerId": "1",
+      "partnerName": "Dr. Sarah Veterinary Clinic",
+      "partnerImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      "serviceId": "s1",
+      "service": "General Checkup",
+      "date": "2026-04-05",
+      "time": "10:00",
+      "status": "assigned",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "price": 550,
+      "address": "Smoke Test Address",
+      "notes": "API smoke test",
+      "category": "Veterinary",
+      "jobId": "j-1775333848516-jq28e2"
+    },
+    {
+      "id": "b-1775337626266-sklnwf",
+      "customerId": "u-customer-1",
+      "partnerId": "1",
+      "partnerName": "Dr. Sarah Veterinary Clinic",
+      "partnerImage": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      "serviceId": "s1",
+      "service": "General Checkup",
+      "date": "2026-04-05",
+      "time": "11:00",
+      "status": "assigned",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "price": 550,
+      "address": "Smoke Test Address",
+      "notes": "quick test",
+      "category": "Veterinary",
+      "jobId": "j-1775337626275-24ny6f"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j1",
+      "bookingId": "b1",
+      "partnerId": "1",
+      "customerId": "u-customer-1",
+      "customerName": "Rahul Sharma",
+      "customerImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "service": "General Checkup",
+      "date": "2026-04-04",
+      "time": "10:00",
+      "status": "accepted",
+      "price": 500,
+      "address": "123 MG Road, Bangalore",
+      "distance": 1.2
+    },
+    {
+      "id": "j2",
+      "bookingId": "",
+      "partnerId": "1",
+      "customerId": "u-customer-2",
+      "customerName": "Priya Patel",
+      "customerImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "service": "Vaccination",
+      "date": "2026-04-04",
+      "time": "14:00",
+      "status": "pending",
+      "price": 800,
+      "address": "456 Indiranagar, Bangalore",
+      "distance": 2.5
+    },
+    {
+      "id": "j3",
+      "bookingId": "b3",
+      "partnerId": "1",
+      "customerId": "u-customer-3",
+      "customerName": "Amit Kumar",
+      "customerImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+      "service": "Emergency Care",
+      "date": "2026-04-03",
+      "time": "16:00",
+      "status": "completed",
+      "price": 2000,
+      "address": "789 Koramangala, Bangalore",
+      "distance": 0.8
+    },
+    {
+      "id": "j-1775317088512-scvhhl",
+      "bookingId": "b-1775317088499-zs4ber",
+      "partnerId": "2",
+      "customerId": "u-customer-1",
+      "customerName": "Rahul Sharma",
+      "customerImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+      "service": "Fan Installation",
+      "date": "2026-04-07",
+      "time": "11:00",
+      "status": "pending",
+      "price": 300,
+      "address": "Test Address",
+      "distance": 0.6
+    },
+    {
+      "id": "j-1775333848516-jq28e2",
+      "bookingId": "b-1775333848501-56r3tr",
+      "partnerId": "1",
+      "customerId": "u-customer-1",
+      "customerName": "Rahul Sharma",
+      "customerImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+      "service": "General Checkup",
+      "date": "2026-04-05",
+      "time": "10:00",
+      "status": "pending",
+      "price": 500,
+      "address": "Smoke Test Address",
+      "distance": 2.9
+    },
+    {
+      "id": "j-1775337626275-24ny6f",
+      "bookingId": "b-1775337626266-sklnwf",
+      "partnerId": "1",
+      "customerId": "u-customer-1",
+      "customerName": "Rahul Sharma",
+      "customerImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop",
+      "service": "General Checkup",
+      "date": "2026-04-05",
+      "time": "11:00",
+      "status": "pending",
+      "price": 500,
+      "address": "Smoke Test Address",
+      "distance": 2.7
+    }
+  ],
+  "partnerAvailabilityByPartnerId": {
+    "1": {
+      "Monday": {
+        "enabled": true,
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      "Tuesday": {
+        "enabled": true,
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      "Wednesday": {
+        "enabled": true,
+        "slots": [
+          "09:00",
+          "11:00",
+          "14:00",
+          "16:00"
+        ]
+      },
+      "Thursday": {
+        "enabled": true,
+        "slots": [
+          "09:00",
+          "10:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      "Friday": {
+        "enabled": true,
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      "Saturday": {
+        "enabled": false,
+        "slots": []
+      },
+      "Sunday": {
+        "enabled": false,
+        "slots": []
+      }
+    }
+  },
+  "transactions": [
+    {
+      "id": "t1",
+      "partnerId": "1",
+      "bookingId": "b1",
+      "customer": "Rahul Sharma",
+      "service": "General Checkup",
+      "amount": 500,
+      "date": "2026-04-03",
+      "status": "completed"
+    },
+    {
+      "id": "t2",
+      "partnerId": "1",
+      "bookingId": "",
+      "customer": "Priya Patel",
+      "service": "Vaccination",
+      "amount": 800,
+      "date": "2026-04-03",
+      "status": "completed"
+    },
+    {
+      "id": "t3",
+      "partnerId": "1",
+      "bookingId": "b3",
+      "customer": "Amit Kumar",
+      "service": "Emergency Care",
+      "amount": 2000,
+      "date": "2026-04-02",
+      "status": "completed"
+    },
+    {
+      "id": "t4",
+      "partnerId": "1",
+      "bookingId": "",
+      "customer": "Sneha Singh",
+      "service": "General Checkup",
+      "amount": 500,
+      "date": "2026-04-02",
+      "status": "completed"
+    },
+    {
+      "id": "t5",
+      "partnerId": "1",
+      "bookingId": "",
+      "customer": "Ravi Verma",
+      "service": "Vaccination",
+      "amount": 800,
+      "date": "2026-04-01",
+      "status": "pending"
+    },
+    {
+      "id": "t-1775317088512-qnozic",
+      "partnerId": "2",
+      "bookingId": "b-1775317088499-zs4ber",
+      "customer": "Rahul Sharma",
+      "service": "Fan Installation",
+      "amount": 300,
+      "date": "2026-04-04",
+      "status": "completed"
+    },
+    {
+      "id": "t-1775333848518-zb3ds3",
+      "partnerId": "1",
+      "bookingId": "b-1775333848501-56r3tr",
+      "customer": "Rahul Sharma",
+      "service": "General Checkup",
+      "amount": 500,
+      "date": "2026-04-05",
+      "status": "completed"
+    },
+    {
+      "id": "t-1775337626275-fx4qcm",
+      "partnerId": "1",
+      "bookingId": "b-1775337626266-sklnwf",
+      "customer": "Rahul Sharma",
+      "service": "General Checkup",
+      "amount": 500,
+      "date": "2026-04-05",
+      "status": "completed"
+    }
+  ],
+  "users": [
+    {
+      "id": "u-customer-1",
+      "name": "Rahul Sharma",
+      "role": "customer",
+      "phone": "9876543210",
+      "walletBalance": -4500
+    },
+    {
+      "id": "u-partner-1",
+      "name": "Dr. Sarah Veterinary Clinic",
+      "role": "partner",
+      "phone": "9000000001",
+      "partnerId": "1",
+      "walletBalance": 4050,
+      "ratings": 4.53
+    },
+    {
+      "id": "u-customer-1775334132141-rf9ds3",
+      "name": "QA User",
+      "role": "customer",
+      "phone": "0000000000",
+      "email": "qa.user@gmail.com"
+    },
+    {
+      "id": "u-customer-1775378600276-5az7hi",
+      "name": "Customer",
+      "role": "customer",
+      "marketplaceRole": "client",
+      "phone": "9011111111",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "Client Management"
+      ]
+    },
+    {
+      "id": "u-partner-1775378600301-cdex1g",
+      "name": "Service Partner",
+      "role": "partner",
+      "marketplaceRole": "worker",
+      "phone": "9022222222",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "General Service"
+      ],
+      "partnerId": "1"
+    },
+    {
+      "id": "u-customer-1775378650375-k7hq6m",
+      "name": "Customer",
+      "role": "customer",
+      "marketplaceRole": "client",
+      "phone": "9033333333",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "Client Management"
+      ]
+    },
+    {
+      "id": "u-partner-1775378650397-bxaxjb",
+      "name": "Service Partner",
+      "role": "partner",
+      "marketplaceRole": "worker",
+      "phone": "9044444444",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "General Service"
+      ],
+      "partnerId": "1"
+    },
+    {
+      "id": "u-customer-1775378685400-mgi0h8",
+      "name": "Customer",
+      "role": "customer",
+      "marketplaceRole": "client",
+      "phone": "9055555555",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "Client Management"
+      ]
+    },
+    {
+      "id": "u-partner-1775378685416-mrux4d",
+      "name": "Service Partner",
+      "role": "partner",
+      "marketplaceRole": "worker",
+      "phone": "9066666666",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "General Service"
+      ],
+      "partnerId": "1"
+    },
+    {
+      "id": "u-customer-1775378760561-s8m8rw",
+      "name": "Customer",
+      "role": "customer",
+      "marketplaceRole": "client",
+      "phone": "9077777777",
+      "ratings": 4.5,
+      "walletBalance": -3000,
+      "location": "Bangalore",
+      "skills": [
+        "Client Management"
+      ]
+    },
+    {
+      "id": "u-partner-1775378760582-fi2c0x",
+      "name": "Service Partner",
+      "role": "partner",
+      "marketplaceRole": "worker",
+      "phone": "9088888888",
+      "ratings": 4.53,
+      "walletBalance": 2700,
+      "location": "Bangalore",
+      "skills": [
+        "General Service"
+      ],
+      "partnerId": "1"
+    },
+    {
+      "id": "u-customer-1775379096822-l7f2wu",
+      "name": "Customer",
+      "role": "customer",
+      "marketplaceRole": "client",
+      "phone": "9099999999",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "Client Management"
+      ]
+    },
+    {
+      "id": "u-partner-1775379096842-7mqlwn",
+      "name": "Service Partner",
+      "role": "partner",
+      "marketplaceRole": "worker",
+      "phone": "9000000000",
+      "ratings": 4.5,
+      "walletBalance": 0,
+      "location": "Bangalore",
+      "skills": [
+        "General Service"
+      ],
+      "partnerId": "1"
+    }
+  ],
+  "authRequests": {},
+  "sessions": [
+    {
+      "token": "5d4af3cd6b4646aba179a3f9dc359c6f47beb9fd7cd178d7",
+      "userId": "u-customer-1",
+      "createdAt": 1775333848364
+    },
+    {
+      "token": "d22428d00d4ea1c1eab256237f55e42b17369c2300c20c39",
+      "userId": "u-partner-1",
+      "createdAt": 1775333848553
+    },
+    {
+      "token": "147c9cd21c7f61465046eed370c525528f19509c7ae2858f",
+      "userId": "u-customer-1775334132141-rf9ds3",
+      "createdAt": 1775334132147
+    },
+    {
+      "token": "2ce958a27c10ac2d465090eba851a59f7a23d97b7c4d57be",
+      "userId": "u-customer-1",
+      "createdAt": 1775337329858
+    },
+    {
+      "token": "a470ddb4b203ded7abe682ccb356166a3cc3ce84404d551b",
+      "userId": "u-partner-1",
+      "createdAt": 1775337329880
+    },
+    {
+      "token": "f63b79feced9ad2805c6294224d51859f150c5c573f202af",
+      "userId": "u-customer-1",
+      "createdAt": 1775337626115
+    },
+    {
+      "token": "100465a947a14f1fa50f145bc05a72146771a952fb77f363",
+      "userId": "u-partner-1",
+      "createdAt": 1775337626136
+    },
+    {
+      "token": "f5f4c2c464a6e8b405e05dc32bc6050c76445cc89d879c70",
+      "userId": "u-customer-1",
+      "createdAt": 1775338382571
+    },
+    {
+      "token": "d6d5f0457de5868dd3f006b7b7e72317564a937f1374ba12",
+      "userId": "u-customer-1775378600276-5az7hi",
+      "createdAt": 1775378600281
+    },
+    {
+      "token": "05db448897f7b0ce45ab6ef339cca19dc70e949bf62a62ad",
+      "userId": "u-partner-1775378600301-cdex1g",
+      "createdAt": 1775378600301
+    },
+    {
+      "token": "5cb4a644e965816c61b29d59e8ac9f68550195463c69a0fc",
+      "userId": "u-customer-1775378650375-k7hq6m",
+      "createdAt": 1775378650376
+    },
+    {
+      "token": "f5101ff65d76ea9b3fc36ac8e058eab59e9327762fdd7bc1",
+      "userId": "u-partner-1775378650397-bxaxjb",
+      "createdAt": 1775378650397
+    },
+    {
+      "token": "1394abcf03042964893dcc4222bd775dcd14ea759163b8ae",
+      "userId": "u-customer-1775378685400-mgi0h8",
+      "createdAt": 1775378685400
+    },
+    {
+      "token": "9a67d1801b285c041ba5ecac92f3a37896a6ada331c5850c",
+      "userId": "u-partner-1775378685416-mrux4d",
+      "createdAt": 1775378685417
+    },
+    {
+      "token": "25600258e34959e8481586f40212c3c39f4db4d6d5b1f961",
+      "userId": "u-customer-1775378760561-s8m8rw",
+      "createdAt": 1775378760562
+    },
+    {
+      "token": "54a699bc0ccfd73ff2c1589a152ee2c71cd9c83e35a1fa4d",
+      "userId": "u-partner-1775378760582-fi2c0x",
+      "createdAt": 1775378760583
+    },
+    {
+      "token": "1ae0229e076109eec543416b8142e4482f9bb22d2b78bed1",
+      "userId": "u-customer-1775379096822-l7f2wu",
+      "createdAt": 1775379096823
+    },
+    {
+      "token": "96fab15dc9a90cd92cf61f58e2c3f653797183c27569018b",
+      "userId": "u-partner-1775379096842-7mqlwn",
+      "createdAt": 1775379096842
+    }
+  ],
+  "marketplaceJobs": [
+    {
+      "job_id": "mj-1775337329942-094ni8",
+      "owner_id": "u-customer-1",
+      "title": "Need mobile QA testing",
+      "description": "Test Android app flows and report bugs with screenshots",
+      "budget": 4500,
+      "location": "Bangalore",
+      "mode": "hybrid",
+      "status": "completed",
+      "requiredSkills": [
+        "QA",
+        "Android",
+        "Testing"
+      ],
+      "attachments": [],
+      "createdAt": "2026-04-04T21:15:29.942Z",
+      "applicationsCount": 1,
+      "selectedApplicantId": "u-partner-1"
+    },
+    {
+      "job_id": "mj-1775337626175-civrlx",
+      "owner_id": "u-customer-1",
+      "title": "API QA",
+      "description": "Validate API",
+      "budget": 2500,
+      "location": "Remote",
+      "mode": "online",
+      "status": "ongoing",
+      "requiredSkills": [
+        "API",
+        "QA"
+      ],
+      "attachments": [],
+      "createdAt": "2026-04-04T21:20:26.175Z",
+      "applicationsCount": 1,
+      "selectedApplicantId": "u-partner-1"
+    },
+    {
+      "job_id": "mj-1775378600332-tzgrbb",
+      "owner_id": "u-customer-1775378600276-5az7hi",
+      "title": "Install ceiling fan",
+      "description": "Need electrician for fan installation",
+      "budget": 1800,
+      "location": "Bangalore",
+      "mode": "offline",
+      "status": "open",
+      "requiredSkills": [],
+      "attachments": [],
+      "createdAt": "2026-04-05T08:43:20.332Z",
+      "applicationsCount": 0,
+      "selectedApplicantId": ""
+    },
+    {
+      "job_id": "mj-1775378650424-cuz546",
+      "owner_id": "u-customer-1775378650375-k7hq6m",
+      "title": "Need painter for 1BHK",
+      "description": "Wall repainting required this weekend",
+      "budget": 5000,
+      "location": "Bangalore",
+      "mode": "offline",
+      "status": "open",
+      "requiredSkills": [
+        "Painting"
+      ],
+      "attachments": [],
+      "createdAt": "2026-04-05T08:44:10.424Z",
+      "applicationsCount": 0,
+      "selectedApplicantId": ""
+    },
+    {
+      "job_id": "mj-1775378685428-uit6ir",
+      "owner_id": "u-customer-1775378685400-mgi0h8",
+      "title": "Laptop servicing",
+      "description": "Need online troubleshooting and cleanup",
+      "budget": 2200,
+      "location": "Remote",
+      "mode": "online",
+      "status": "ongoing",
+      "requiredSkills": [
+        "Troubleshooting"
+      ],
+      "attachments": [],
+      "createdAt": "2026-04-05T08:44:45.428Z",
+      "applicationsCount": 1,
+      "selectedApplicantId": "u-partner-1775378685416-mrux4d"
+    },
+    {
+      "job_id": "mj-1775378760595-a6ducb",
+      "owner_id": "u-customer-1775378760561-s8m8rw",
+      "title": "Logo design for local shop",
+      "description": "Need 3 logo concepts and source files",
+      "budget": 3000,
+      "location": "Online",
+      "mode": "online",
+      "status": "completed",
+      "requiredSkills": [
+        "Design"
+      ],
+      "attachments": [],
+      "createdAt": "2026-04-05T08:46:00.595Z",
+      "applicationsCount": 1,
+      "selectedApplicantId": "u-partner-1775378760582-fi2c0x"
+    },
+    {
+      "job_id": "mj-1775379096855-eurbcx",
+      "owner_id": "u-customer-1775379096822-l7f2wu",
+      "title": "Quick audit",
+      "description": "Need online profile audit",
+      "budget": 1200,
+      "location": "Online",
+      "mode": "online",
+      "status": "open",
+      "requiredSkills": [],
+      "attachments": [],
+      "createdAt": "2026-04-05T08:51:36.855Z",
+      "applicationsCount": 0,
+      "selectedApplicantId": ""
+    }
+  ],
+  "marketplaceApplications": [
+    {
+      "application_id": "ma-1775337329982-46l6l3",
+      "applicant_id": "u-partner-1",
+      "job_id": "mj-1775337329942-094ni8",
+      "proposal": "I can test this in 1 day and provide reproducible reports.",
+      "status": "accepted",
+      "createdAt": "2026-04-04T21:15:29.982Z"
+    },
+    {
+      "application_id": "ma-1775337626193-4ze14l",
+      "applicant_id": "u-partner-1",
+      "job_id": "mj-1775337626175-civrlx",
+      "proposal": "Can do in 24h",
+      "status": "accepted",
+      "createdAt": "2026-04-04T21:20:26.193Z"
+    },
+    {
+      "application_id": "ma-1775378685508-z5seur",
+      "applicant_id": "u-partner-1775378685416-mrux4d",
+      "job_id": "mj-1775378685428-uit6ir",
+      "proposal": "I can resolve this in 1 hour",
+      "status": "accepted",
+      "createdAt": "2026-04-05T08:44:45.508Z"
+    },
+    {
+      "application_id": "ma-1775378760653-qvpobc",
+      "applicant_id": "u-partner-1775378760582-fi2c0x",
+      "job_id": "mj-1775378760595-a6ducb",
+      "proposal": "I can deliver in 24h",
+      "status": "accepted",
+      "createdAt": "2026-04-05T08:46:00.653Z"
+    }
+  ],
+  "marketplaceMessages": [
+    {
+      "message_id": "mm-1775337330023-8nyvc7",
+      "sender_id": "u-customer-1",
+      "receiver_id": "u-partner-1",
+      "message": "Please share a test report by tomorrow.",
+      "timestamp": "2026-04-04T21:15:30.023Z",
+      "job_id": "mj-1775337329942-094ni8"
+    },
+    {
+      "message_id": "mm-1775378760678-nsatur",
+      "sender_id": "u-customer-1775378760561-s8m8rw",
+      "receiver_id": "u-partner-1775378760582-fi2c0x",
+      "message": "Please start with modern style options.",
+      "timestamp": "2026-04-05T08:46:00.678Z",
+      "job_id": ""
+    },
+    {
+      "message_id": "mm-1775379096946-tne98s",
+      "sender_id": "u-customer-1775379096822-l7f2wu",
+      "receiver_id": "u-partner-1775379096842-7mqlwn",
+      "message": "Testing camelCase receiver",
+      "timestamp": "2026-04-05T08:51:36.946Z",
+      "job_id": ""
+    }
+  ],
+  "marketplaceNotifications": [
+    {
+      "notification_id": "mn-1775337329942-0h3ml3",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Need mobile QA testing\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:15:29.942Z"
+    },
+    {
+      "notification_id": "mn-1775337329982-60dn6n",
+      "user_id": "u-customer-1",
+      "title": "New application received",
+      "body": "Dr. Sarah Veterinary Clinic applied to \"Need mobile QA testing\".",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:15:29.982Z"
+    },
+    {
+      "notification_id": "mn-1775337330006-plki6o",
+      "user_id": "u-partner-1",
+      "title": "Application accepted",
+      "body": "Your application for \"Need mobile QA testing\" is now accepted.",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:15:30.006Z"
+    },
+    {
+      "notification_id": "mn-1775337330023-bqw7ix",
+      "user_id": "u-partner-1",
+      "title": "New message",
+      "body": "Rahul Sharma: Please share a test report by tomorrow.",
+      "type": "message",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:15:30.023Z"
+    },
+    {
+      "notification_id": "mn-1775337330041-3ucm4e",
+      "user_id": "u-customer-1",
+      "title": "Job marked completed",
+      "body": "Worker marked \"Need mobile QA testing\" as completed.",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:15:30.041Z"
+    },
+    {
+      "notification_id": "mn-1775337626177-ayauqc",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"API QA\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:20:26.177Z"
+    },
+    {
+      "notification_id": "mn-1775337626193-b0zn75",
+      "user_id": "u-customer-1",
+      "title": "New application received",
+      "body": "Dr. Sarah Veterinary Clinic applied to \"API QA\".",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:20:26.193Z"
+    },
+    {
+      "notification_id": "mn-1775337626204-c9gnqs",
+      "user_id": "u-partner-1",
+      "title": "Application accepted",
+      "body": "Your application for \"API QA\" is now accepted.",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-04T21:20:26.204Z"
+    },
+    {
+      "notification_id": "mn-1775378600333-mr1n8z",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Install ceiling fan\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:43:20.333Z"
+    },
+    {
+      "notification_id": "mn-1775378600333-0m00na",
+      "user_id": "u-partner-1775378600301-cdex1g",
+      "title": "New matched job",
+      "body": "A new job \"Install ceiling fan\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:43:20.333Z"
+    },
+    {
+      "notification_id": "mn-1775378650424-dnymlm",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Need painter for 1BHK\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:10.424Z"
+    },
+    {
+      "notification_id": "mn-1775378650424-bovghh",
+      "user_id": "u-partner-1775378600301-cdex1g",
+      "title": "New matched job",
+      "body": "A new job \"Need painter for 1BHK\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:10.424Z"
+    },
+    {
+      "notification_id": "mn-1775378650424-gluac1",
+      "user_id": "u-partner-1775378650397-bxaxjb",
+      "title": "New matched job",
+      "body": "A new job \"Need painter for 1BHK\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:10.424Z"
+    },
+    {
+      "notification_id": "mn-1775378685429-55d811",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Laptop servicing\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.429Z"
+    },
+    {
+      "notification_id": "mn-1775378685429-ll69w9",
+      "user_id": "u-partner-1775378600301-cdex1g",
+      "title": "New matched job",
+      "body": "A new job \"Laptop servicing\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.429Z"
+    },
+    {
+      "notification_id": "mn-1775378685429-48851g",
+      "user_id": "u-partner-1775378650397-bxaxjb",
+      "title": "New matched job",
+      "body": "A new job \"Laptop servicing\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.429Z"
+    },
+    {
+      "notification_id": "mn-1775378685429-i5g6kj",
+      "user_id": "u-partner-1775378685416-mrux4d",
+      "title": "New matched job",
+      "body": "A new job \"Laptop servicing\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.429Z"
+    },
+    {
+      "notification_id": "mn-1775378685508-xzmnag",
+      "user_id": "u-customer-1775378685400-mgi0h8",
+      "title": "New application received",
+      "body": "Service Partner applied to \"Laptop servicing\".",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.508Z"
+    },
+    {
+      "notification_id": "mn-1775378685523-y9vh6l",
+      "user_id": "u-partner-1775378685416-mrux4d",
+      "title": "Application accepted",
+      "body": "Your application for \"Laptop servicing\" is now accepted.",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:44:45.523Z"
+    },
+    {
+      "notification_id": "mn-1775378760596-cuuhgc",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Logo design for local shop\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.596Z"
+    },
+    {
+      "notification_id": "mn-1775378760597-b7cro0",
+      "user_id": "u-partner-1775378600301-cdex1g",
+      "title": "New matched job",
+      "body": "A new job \"Logo design for local shop\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.597Z"
+    },
+    {
+      "notification_id": "mn-1775378760597-n77yej",
+      "user_id": "u-partner-1775378650397-bxaxjb",
+      "title": "New matched job",
+      "body": "A new job \"Logo design for local shop\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.597Z"
+    },
+    {
+      "notification_id": "mn-1775378760597-vrbitx",
+      "user_id": "u-partner-1775378685416-mrux4d",
+      "title": "New matched job",
+      "body": "A new job \"Logo design for local shop\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.597Z"
+    },
+    {
+      "notification_id": "mn-1775378760597-isy0gk",
+      "user_id": "u-partner-1775378760582-fi2c0x",
+      "title": "New matched job",
+      "body": "A new job \"Logo design for local shop\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.597Z"
+    },
+    {
+      "notification_id": "mn-1775378760653-omcgqz",
+      "user_id": "u-customer-1775378760561-s8m8rw",
+      "title": "New application received",
+      "body": "Service Partner applied to \"Logo design for local shop\".",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.653Z"
+    },
+    {
+      "notification_id": "mn-1775378760667-umnh4v",
+      "user_id": "u-partner-1775378760582-fi2c0x",
+      "title": "Application accepted",
+      "body": "Your application for \"Logo design for local shop\" is now accepted.",
+      "type": "application",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.667Z"
+    },
+    {
+      "notification_id": "mn-1775378760678-vtr9at",
+      "user_id": "u-partner-1775378760582-fi2c0x",
+      "title": "New message",
+      "body": "Customer: Please start with modern style options.",
+      "type": "message",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.678Z"
+    },
+    {
+      "notification_id": "mn-1775378760697-qbypnj",
+      "user_id": "u-partner-1775378760582-fi2c0x",
+      "title": "Payment released",
+      "body": "Payment for \"Logo design for local shop\" has been released to your wallet.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:46:00.697Z"
+    },
+    {
+      "notification_id": "mn-1775379096856-ud1u1s",
+      "user_id": "u-partner-1",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.856Z"
+    },
+    {
+      "notification_id": "mn-1775379096856-ppm57d",
+      "user_id": "u-partner-1775378600301-cdex1g",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.856Z"
+    },
+    {
+      "notification_id": "mn-1775379096856-mbvj8x",
+      "user_id": "u-partner-1775378650397-bxaxjb",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.856Z"
+    },
+    {
+      "notification_id": "mn-1775379096856-hb6xlp",
+      "user_id": "u-partner-1775378685416-mrux4d",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.856Z"
+    },
+    {
+      "notification_id": "mn-1775379096856-tawxua",
+      "user_id": "u-partner-1775378760582-fi2c0x",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.856Z"
+    },
+    {
+      "notification_id": "mn-1775379096857-ih796b",
+      "user_id": "u-partner-1775379096842-7mqlwn",
+      "title": "New matched job",
+      "body": "A new job \"Quick audit\" matches your profile.",
+      "type": "system",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.857Z"
+    },
+    {
+      "notification_id": "mn-1775379096946-3eo48b",
+      "user_id": "u-partner-1775379096842-7mqlwn",
+      "title": "New message",
+      "body": "Customer: Testing camelCase receiver",
+      "type": "message",
+      "isRead": false,
+      "createdAt": "2026-04-05T08:51:36.946Z"
+    }
+  ],
+  "clickLogs": [
+    {
+      "id": "click-1775337329942-amuf2m",
+      "userId": "u-customer-1",
+      "action": "job_posted",
+      "target": "mj-1775337329942-094ni8",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-04T21:15:29.942Z"
+    },
+    {
+      "id": "click-1775337331257-ecqlyv",
+      "userId": "u-partner-1",
+      "action": "smoke_test",
+      "target": "automation",
+      "metadata": {
+        "test": "pass"
+      },
+      "timestamp": "2026-04-04T21:15:31.257Z"
+    },
+    {
+      "id": "click-1775337626177-w3he6v",
+      "userId": "u-customer-1",
+      "action": "job_posted",
+      "target": "mj-1775337626175-civrlx",
+      "metadata": {
+        "ownerRank": 57
+      },
+      "timestamp": "2026-04-04T21:20:26.177Z"
+    },
+    {
+      "id": "click-1775378600333-653u3x",
+      "userId": "u-customer-1775378600276-5az7hi",
+      "action": "job_posted",
+      "target": "mj-1775378600332-tzgrbb",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-05T08:43:20.333Z"
+    },
+    {
+      "id": "click-1775378650424-7l5kho",
+      "userId": "u-customer-1775378650375-k7hq6m",
+      "action": "job_posted",
+      "target": "mj-1775378650424-cuz546",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-05T08:44:10.424Z"
+    },
+    {
+      "id": "click-1775378685429-esd2d1",
+      "userId": "u-customer-1775378685400-mgi0h8",
+      "action": "job_posted",
+      "target": "mj-1775378685428-uit6ir",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-05T08:44:45.429Z"
+    },
+    {
+      "id": "click-1775378760597-to0np1",
+      "userId": "u-customer-1775378760561-s8m8rw",
+      "action": "job_posted",
+      "target": "mj-1775378760595-a6ducb",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-05T08:46:00.597Z"
+    },
+    {
+      "id": "click-1775378760718-3so7fi",
+      "userId": "u-customer-1775378760561-s8m8rw",
+      "action": "tap",
+      "target": "messages_tab",
+      "metadata": {
+        "source": "smoke-test"
+      },
+      "timestamp": "2026-04-05T08:46:00.718Z"
+    },
+    {
+      "id": "click-1775379096857-b9levd",
+      "userId": "u-customer-1775379096822-l7f2wu",
+      "action": "job_posted",
+      "target": "mj-1775379096855-eurbcx",
+      "metadata": {
+        "ownerRank": 55
+      },
+      "timestamp": "2026-04-05T08:51:36.857Z"
+    }
+  ]
+}
