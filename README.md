@@ -1,63 +1,121 @@
-# Global Shreni Service Marketplace
+# 🚀 Global Shreni – AI-Powered Service Marketplace
 
-Full-stack app with:
-- React + Vite frontend
-- Express backend (`/server`)
-- Capacitor Android app build (APK)
-- Online-first APIs with offline fallback
-- Marketplace module: Home, Jobs, Post Work, Messages, Profile, Notifications
-- AI matching + rank-based profile scoring
+**Tagline:** Book Any Service Instantly with AI
 
-## 1. Install
+---
+
+## 🧠 Overview
+
+Global Shreni is a full-stack AI-powered service marketplace that enables users to discover, compare, and book local services through a conversational interface.
+
+Instead of manually searching across multiple platforms, users simply type their requirement—such as *“find a vet near me”* or *“book an electrician tomorrow”*—and the system intelligently understands the request, recommends verified Service Partners, and enables instant booking.
+
+The platform combines a ChatGPT-style assistant with structured service discovery, real-time availability, transparent pricing, and seamless booking.
+
+---
+
+## ⚙️ Tech Stack
+
+* **Frontend:** React + Vite
+* **Backend:** Node.js + Express (`/server`)
+* **Mobile App:** Capacitor (Android APK)
+* **APIs:** Online-first with offline fallback
+* **Authentication:** OTP + Google Sign-In
+* **AI Layer:** Intent-based matching + ranking system
+
+---
+
+## 📱 Core Product Modules
+
+### 👤 Customer Experience
+
+* AI chat-based service search
+* Location-based discovery
+* Service Partner profiles (ratings, pricing, availability)
+* Instant booking flow
+* Secure payments
+* Live job tracking
+* Notifications system
+
+### 🧑‍🔧 Service Partner (Pro Dashboard)
+
+* Profile onboarding & KYC
+* Task manager (incoming jobs, accept/reject)
+* Availability scheduling
+* Earnings dashboard
+* Ratings & reviews system
+* Performance-based ranking
+
+---
+
+## 🔄 Core App Flows
+
+### 🔹 Service Flow
+
+Search → AI Recommendation → View Partner → Book → Pay → Track → Complete
+
+### 🔹 Job Marketplace Flow
+
+Post Work → Applications → Accept → Chat → Complete
+
+### 🔹 Rank System
+
+Dynamic profile ranking based on:
+
+* Ratings
+* Completed jobs
+* Acceptance rate
+* Response time
+
+---
+
+## 🧩 Features
+
+* 🤖 AI-powered conversational interface
+* 📍 Location-based service discovery (map integration ready)
+* ⭐ Verified Service Partners with ratings & reviews
+* ⚡ Instant booking with real-time availability
+* 💳 Transparent pricing & payment system
+* 📡 Live tracking & notifications
+* 📊 Rank-based visibility system
+* 💬 In-app messaging
+
+---
+
+## 🔐 Authentication
+
+* OTP-based login (`/api/auth/send-otp`, `/api/auth/verify-otp`)
+* Google Sign-In (`/api/auth/google`)
+* Demo OTP supported in development mode
+
+---
+
+## 🛠️ Setup & Development
+
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-## 2. Run Web + Backend (Development)
+### 2. Run frontend + backend
 
 ```bash
 npm run dev
 ```
 
-This starts:
-- Frontend: `http://localhost:5173`
-- Backend API: `http://localhost:4000/api`
+* Frontend: http://localhost:5173
+* Backend: http://localhost:4000/api
 
-Health check:
+### Health check:
 
 ```bash
 curl http://localhost:4000/api/health
 ```
 
-## 3. Core App Flows
+---
 
-- Bottom navigation:
-  - `Home`
-  - `Jobs`
-  - `Post Work`
-  - `Messages`
-  - `Profile`
-- Job lifecycle:
-  - Post job -> Apply -> Accept -> Message -> Mark completed
-- Service lifecycle:
-  - Search partner -> Book -> Pay -> Track
-- Notifications:
-  - Application updates, chat updates, system updates
-- Rank system:
-  - Profile rank computed from ratings, completed work, acceptance rate
-
-## 4. Login Notes
-
-- OTP flow works through backend `/api/auth/send-otp` and `/api/auth/verify-otp`.
-- In local/dev mode, demo OTP is returned in API response.
-- Google sign-in endpoint is `/api/auth/google`
-  - Real token verification works when `GOOGLE_CLIENT_ID` and valid Google `idToken` are provided.
-  - Without production OAuth config, fallback email-based Google sign-in is enabled in non-production mode.
-
-## 5. Android Build (APK)
-
-Build web + sync + Android release:
+## 📦 Android Build (APK)
 
 ```bash
 npm run build
@@ -66,22 +124,94 @@ cd android
 .\gradlew.bat assembleRelease
 ```
 
-APK output:
+📍 Output:
 
-`android/app/build/outputs/apk/release/app-release.apk`
+```
+android/app/build/outputs/apk/release/app-release.apk
+```
 
-## 6. Access Backend From Android Device
+---
 
-- Emulator default backend URL works with `http://10.0.2.2:4000/api`.
-- Real phone must use your machine LAN IP, for example:
-  `http://192.168.1.100:4000/api`
-- In app Auth screen open **Backend settings** and set/test URL.
+## 🌐 Backend Access (Mobile)
 
-## 7. Production Checklist
+* Emulator:
+  `http://10.0.2.2:4000/api`
 
-- Use HTTPS backend URL.
-- Configure real OTP provider.
-- Configure Google OAuth credentials and app SHA keys.
-- Disable demo OTP and insecure Google fallback in production:
-  - `ENABLE_DEMO_OTP=false`
-  - `ALLOW_INSECURE_GOOGLE_MOCK=false`
+* Real device (LAN):
+  `http://<your-local-ip>:4000/api`
+
+---
+
+## 🚀 Production Checklist
+
+* Enable HTTPS backend
+* Integrate real OTP provider
+* Configure Google OAuth (Client ID + SHA keys)
+* Disable dev fallbacks:
+
+  * `ENABLE_DEMO_OTP=false`
+  * `ALLOW_INSECURE_GOOGLE_MOCK=false`
+
+---
+
+## 💰 Business Model
+
+* Commission per booking
+* Subscription plans for Service Partners
+* Featured listings & promotions
+
+---
+
+## 🎯 Target Market
+
+Urban and semi-urban users seeking fast, reliable access to local services such as:
+
+* Home services
+* Repairs & maintenance
+* Pet care
+* Healthcare
+
+---
+
+## 🌍 Vision
+
+To become the default AI assistant for discovering and booking any service—making local services as easy as sending a message.
+
+---
+
+## 🎯 Mission
+
+To simplify service access using AI while empowering local Service Partners with consistent demand, digital tools, and growth opportunities.
+
+---
+
+## 🔥 Key Differentiation
+
+Unlike traditional platforms, Global Shreni is:
+
+* AI-first (not search-first)
+* Conversation-driven
+* Fast decision-making (less friction)
+* Trust-focused with ranking & verification
+
+---
+
+## 📈 Future Scope
+
+* AI auto-booking & smart matching
+* Voice assistant integration
+* Multi-city expansion
+* Advanced analytics for Service Partners
+
+---
+
+## 👨‍💻 Founder
+
+**Tushar Ingle**
+Engineer | Builder | Founder – Global Shreni
+
+---
+
+## ⭐ Status
+
+🚧 MVP in development – actively building core features and onboarding early users.
