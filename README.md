@@ -1,95 +1,43 @@
-# 👋 Hi, I'm Tushar Ingle  
+## 🌐 Connect With Me
 
-🚀 **ENTC Engineer | AI Builder | Founder @ Global Shreni**  
-💡 Building AI systems, startups, and real-world tech solutions  
-
----
-
-## 🔥 About Me
-
-- 🎓 TY BTech (ENTC) Student  
-- 🤖 Passionate about **AI, Machine Learning & Systems Design**  
-- 🚀 Building projects like **ARISE AI, Finmate, Global Shreni**  
-- 🧠 Interested in **AI Agents, Fintech, SaaS, Web3**  
-- 🎯 Goal: Build scalable startups & high-impact tech products  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tushar%20Ingle-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tushar-ingle-502731228/)
+[![Email](https://img.shields.io/badge/Email-tusharingle880%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:tusharingle880@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Tushar100704-black?style=for-the-badge&logo=github)](https://github.com/Tushar100704)
 
 ---
 
 ## ⚡ Tech Stack
 
-### 💻 Programming
-- Python | JavaScript | C | C++
+### 💻 Programming Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
 
 ### 🌐 Development
-- React.js | Next.js | Node.js | Express.js  
-- HTML | CSS | Tailwind  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+
+---
 
 ### 🤖 AI / ML
-- Machine Learning | Deep Learning  
-- OpenAI | Groq API | LangChain  
-- NLP | RAG Systems  
-
-### 🛠️ Tools & Platforms
-- Git | GitHub | Docker | Vercel  
-- MongoDB | Firebase  
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai)
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge)
 
 ---
 
-## 🚀 Featured Projects
-
-### 🤖 ARISE AI Chatbot
-- Real-time AI chatbot using Groq + Next.js  
-- Streaming responses + scalable architecture  
-
-### 💰 Finmate (AI Finance Assistant)
-- Tracks expenses, investments & financial insights  
-- SMS parsing + AI analytics  
-
-### 🌐 Global Shreni
-- AI-powered service marketplace platform  
-- Inspired by Upwork but scalable for all work types  
-
----
-
-## 📊 GitHub Stats
-
-![Tushar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tushar100704&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tushar100704&layout=compact&theme=radical)
-
----
-
-## 🏆 Achievements & Focus
-
-- 🚀 Building real-world AI systems  
-- 📈 Actively working on startup ideas  
-- 🎯 Focused on high-income tech skills (AI + Fintech)  
-
----
-
-## 📫 Connect With Me
-
-- 📧 Email: tusharingle880@gmail.com  
-- 🔗 LinkedIn: https://www.linkedin.com/in/tushar-ingle-502731228/  
-
----
-
-## 🔥 Current Focus
-
-- 🤖 AI Agents & Automation  
-- 💰 Fintech Systems  
-- 🌍 Startup Building (Global Shreni)  
-- 🧠 Advanced AI (ARISE AI Vision)  
-
----
-
-## ⚡ Fun Fact
-
-I don't just learn tech — I build systems that can scale into startups 🚀  
-
----  
-
-⭐ **If you like my work, consider giving a star to my repositories!**
+### ☁️ Tools & Platforms
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 
 👋 Hello, I'm Tushar Ingle
 
