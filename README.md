@@ -1,4 +1,95 @@
+# 👋 Hi, I'm Tushar Ingle  
 
+🚀 **ENTC Engineer | AI Builder | Founder @ Global Shreni**  
+💡 Building AI systems, startups, and real-world tech solutions  
+
+---
+
+## 🔥 About Me
+
+- 🎓 TY BTech (ENTC) Student  
+- 🤖 Passionate about **AI, Machine Learning & Systems Design**  
+- 🚀 Building projects like **ARISE AI, Finmate, Global Shreni**  
+- 🧠 Interested in **AI Agents, Fintech, SaaS, Web3**  
+- 🎯 Goal: Build scalable startups & high-impact tech products  
+
+---
+
+## ⚡ Tech Stack
+
+### 💻 Programming
+- Python | JavaScript | C | C++
+
+### 🌐 Development
+- React.js | Next.js | Node.js | Express.js  
+- HTML | CSS | Tailwind  
+
+### 🤖 AI / ML
+- Machine Learning | Deep Learning  
+- OpenAI | Groq API | LangChain  
+- NLP | RAG Systems  
+
+### 🛠️ Tools & Platforms
+- Git | GitHub | Docker | Vercel  
+- MongoDB | Firebase  
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 ARISE AI Chatbot
+- Real-time AI chatbot using Groq + Next.js  
+- Streaming responses + scalable architecture  
+
+### 💰 Finmate (AI Finance Assistant)
+- Tracks expenses, investments & financial insights  
+- SMS parsing + AI analytics  
+
+### 🌐 Global Shreni
+- AI-powered service marketplace platform  
+- Inspired by Upwork but scalable for all work types  
+
+---
+
+## 📊 GitHub Stats
+
+![Tushar's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tushar100704&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tushar100704&layout=compact&theme=radical)
+
+---
+
+## 🏆 Achievements & Focus
+
+- 🚀 Building real-world AI systems  
+- 📈 Actively working on startup ideas  
+- 🎯 Focused on high-income tech skills (AI + Fintech)  
+
+---
+
+## 📫 Connect With Me
+
+- 📧 Email: tusharingle880@gmail.com  
+- 🔗 LinkedIn: https://www.linkedin.com/in/tushar-ingle-502731228/  
+
+---
+
+## 🔥 Current Focus
+
+- 🤖 AI Agents & Automation  
+- 💰 Fintech Systems  
+- 🌍 Startup Building (Global Shreni)  
+- 🧠 Advanced AI (ARISE AI Vision)  
+
+---
+
+## ⚡ Fun Fact
+
+I don't just learn tech — I build systems that can scale into startups 🚀  
+
+---  
+
+⭐ **If you like my work, consider giving a star to my repositories!**
 
 👋 Hello, I'm Tushar Ingle
 
