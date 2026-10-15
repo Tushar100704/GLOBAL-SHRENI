@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router';
+import { Landing } from './pages/Landing';
 import { Onboarding } from './pages/Onboarding';
 import { RoleSelection } from './pages/RoleSelection';
 import { Auth } from './pages/Auth';
@@ -24,6 +25,10 @@ import { PartnerReviews } from './pages/partner/PartnerReviews';
 export const router = createBrowserRouter([
   {
     path: '/',
+    Component: Landing,
+  },
+  {
+    path: '/onboarding',
     Component: Onboarding,
   },
   {
