@@ -1,0 +1,8 @@
+.env
+.env.*
+data/
+sources/
+.git/
+.vercel/
+node_modules/
+npm-debug.log*
